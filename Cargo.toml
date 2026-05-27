@@ -1,0 +1,16 @@
+[package]
+name = "flaglet"
+description = "Bitflag API from a plain enum — no DSL, no wrapper type you don't own"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-or-later OR BSD-2-Clause"
+keywords = ["bitflags", "flags", "enum", "bitflag", "bitmask"]
+rust-version = "1.85.1"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "2", features = ["full"] }
+quote = "1"
+proc-macro2 = "1"
