@@ -1,3 +1,8 @@
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/qjerome/flaglet/rust.yml?style=for-the-badge)](https://github.com/qjerome/flaglet/actions/workflows/rust.yml)
+[![Crates.io Version](https://img.shields.io/crates/v/flaglet?style=for-the-badge)](https://crates.io/crates/flaglet)
+[![docs.rs](https://img.shields.io/docsrs/flaglet?style=for-the-badge&logo=docs.rs&color=blue)](https://docs.rs/flaglet)
+[![License](https://img.shields.io/crates/l/flaglet?style=for-the-badge)](https://crates.io/crates/flaglet)
+
 <!-- cargo-rdme start -->
 
 # flaglet 🏳️
