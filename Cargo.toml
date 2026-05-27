@@ -1,16 +1,17 @@
 [package]
 name = "flaglet"
-description = "Bitflag API from a plain enum — no DSL, no wrapper type you don't own"
 version = "0.1.0"
 edition = "2024"
-license = "GPL-3.0-or-later OR BSD-2-Clause"
-keywords = ["bitflags", "flags", "enum", "bitflag", "bitmask"]
 rust-version = "1.85.1"
+description = "Bitflag API from a plain enum — no DSL, no wrapper type you don't own"
+repository = "https://github.com/qjerome/flaglet"
+license = "GPL-3.0-or-later OR BSD-2-Clause"
+keywords = ["bitflag", "bitflags", "bitmask", "enum", "flags"]
 
 [lib]
 proc-macro = true
 
 [dependencies]
-syn = { version = "2", features = ["full"] }
-quote = "1"
 proc-macro2 = "1"
+quote = "1"
+syn = { version = "2", features = ["full"] }
